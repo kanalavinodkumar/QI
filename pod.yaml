@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: qi
+  namespace: qi
+  labels:
+    project: qi
+spec:
+  containers:
+  - name: qi
+    image: kanalavinodkumar/qi:v1
+    
