@@ -1,0 +1,17 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: qi
+  labels:
+    project: qi
+spec:
+  type: NodePort
+  selector:
+    project: qi
+  ports:
+  - name: http-port
+    protocol: TCP
+    # service-port
+    port: 80
+    # pod-port
+    targetPort: 80
