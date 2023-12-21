@@ -16,4 +16,4 @@ spec:
     port: 80
     # pod-port
     targetPort: 80
-    nodePort: 7771
+    nodePort: 32123    #  The range of valid ports is 30000-32767
