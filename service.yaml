@@ -16,3 +16,4 @@ spec:
     port: 80
     # pod-port
     targetPort: 80
+    nodePort: 7771
