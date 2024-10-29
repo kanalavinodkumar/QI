@@ -15,7 +15,7 @@ All Contents
 10. Call To Action Subscribe
 11. Contact Section
 12. Footer
-13. Back to top--darkreader-selection-background
+13. Back to top
 ------------------*/
 
 
@@ -665,7 +665,7 @@ body {
 
 
 .hero-4 {
-	background-image: linear-gradient(to right, #3ad410 0%, #6ada1a 100%);
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
